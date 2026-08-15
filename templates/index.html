@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Notes App</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%;
+            height: 250px;
+            padding: 15px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: #4f7cff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f2f2f2;
+            border-radius: 8px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>📝 AI Notes App</h1>
+
+    <form method="POST">
+
+        <textarea name="note" placeholder="Write your note here...">{{ note }}</textarea>
+
+        <br>
+
+        <button type="submit">✨ Summarize Note</button>
+
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h2>AI Summary</h2>
+        {{ result }}
+    </div>
+    {% endif %}
+
+</body>
+</html>
