@@ -97,3 +97,12 @@ http://127.0.0.1:5000
 - Improve AI summarization
 - Add voice-based note creation
 - Deploy the application online
+
+## 👩‍💻 Author
+
+**Varsha**
+
+Artificial Intelligence and Data Science Student
+
+🔗 GitHub: https://github.com/varsha-avg19
+
