@@ -19,6 +19,8 @@ An AI-powered notes application that helps users create, manage, and summarize t
 - CSS
 - JavaScript
 - AI / Generative AI
+- Ollama
+- Llama 3.2
 - Git & GitHub
 
 ## 📂 Project Structure
@@ -33,7 +35,9 @@ AI-Notes-App/
 │
 └── templates/
     └── index.html
-    ## ▶️ How to Run
+```
+
+## ▶️ How to Run
 
 ### 1. Clone the repository
 
@@ -82,6 +86,8 @@ Visit:
 
 ```text
 http://127.0.0.1:5000
+```
+
 ## 🔮 Future Enhancements
 
 - Add user authentication and login
@@ -91,4 +97,3 @@ http://127.0.0.1:5000
 - Improve AI summarization
 - Add voice-based note creation
 - Deploy the application online
-```
