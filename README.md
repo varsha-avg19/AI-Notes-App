@@ -33,3 +33,53 @@ AI-Notes-App/
 │
 └── templates/
     └── index.html
+    ## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/varsha-avg19/AI-Notes-App.git
+cd AI-Notes-App
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the virtual environment
+
+For Windows:
+
+```powershell
+venv\Scripts\activate
+```
+
+### 4. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Install the AI model
+
+Make sure Ollama is installed, then run:
+
+```powershell
+ollama pull llama3.2
+```
+
+### 6. Run the application
+
+```powershell
+python app.py
+```
+
+### 7. Open in browser
+
+Visit:
+
+```text
+http://127.0.0.1:5000
+```
