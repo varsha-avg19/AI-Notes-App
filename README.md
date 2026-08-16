@@ -82,4 +82,13 @@ Visit:
 
 ```text
 http://127.0.0.1:5000
+## 🔮 Future Enhancements
+
+- Add user authentication and login
+- Store notes using a database
+- Add note editing and deletion
+- Add PDF and document upload
+- Improve AI summarization
+- Add voice-based note creation
+- Deploy the application online
 ```
